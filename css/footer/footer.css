@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  font-weight: 200;
+  color: #b2b2b2;
+  gap: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: 'Libre Franklin', sans-serif;
+}
+.rede-logo:hover {
+  background-color: #3b5998;
+  border-radius: 30%;
+  box-shadow: 0px 15px 12px rgba(0, 0, 0, 0.2);
+}

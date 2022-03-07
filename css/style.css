@@ -1,0 +1,5 @@
+@import "./global/global.css";
+@import "./header/header.css";
+@import "./conteiner-form/conteiner-form.css";
+@import "./conteudo-grid/conteudo-grid.css";
+@import "./footer/footer.css"; 

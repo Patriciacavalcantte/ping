@@ -1,0 +1,37 @@
+.logotipo {
+  display: block;
+  margin: 0 auto;
+  margin-top: 80px;
+  width: 100px;
+}
+.estilo-h1{
+  padding-top: 60px;
+  color: #b2b2b2;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 3.2rem;
+  font-weight: 400;
+}
+.estilo-h2 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 100;
+}
+.estilo-span {
+  color: #000000;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 800;
+}
+.header {
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+  background: #fff;
+  max-width: 1200px;
+  text-align: center;
+  margin-bottom: 50px;
+}

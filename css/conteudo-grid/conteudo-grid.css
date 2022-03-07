@@ -1,0 +1,201 @@
+/*conteudo*/
+.conteiner {
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 600px;
+}
+.conteiner-sombra{
+  width: 800px;
+  height: 700px;
+  background-color:hsl(223, 100%, 99%);
+  border-radius: 15px;
+}
+main {
+  padding-top: 50px;
+  height: 600px;
+  background-color: #fbfcff;
+}
+.topo {
+  display: grid;
+  align-items: center;
+  justify-content:left;
+  margin: 0 auto;
+  height: 40px;
+  width: 600px;
+  box-sizing: border-box;
+  box-shadow: 2px 1px 12px rgba(0, 0, 0, 0.1);
+  background-color: #eaeaea;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.pontinhos {
+  padding: 0.5px;
+  margin-left: 10px;
+}
+.grid {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #fbfcff;
+  box-shadow: 0px 15px 12px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  height: 500px;
+}
+.coluna {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  width: 150px;
+  height: 500px;
+  background-color: #fbfcff;
+  box-shadow: 2px 1px 12px rgba(0, 0, 0, 0.1);
+  border-bottom-left-radius: 10px;
+}
+.graficos {
+  gap: 2px;
+  width: 200px;
+  display: grid;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+}
+.slack-logo {
+  border-radius: 15px;
+}
+.graficos:hover {
+  gap: 2px;
+  width: 210px;
+  display: grid;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+}
+.cover {
+  margin: 0 auto;
+  margin-left: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 300px;
+  width: 420px;
+  margin-top: 110px;
+}
+
+.p-1 {
+ 
+  margin-top: 60px;
+  margin-left: 20px;
+  color:#b2b2b2;
+  background-color: #eaeaea;
+  height: 20px;
+  width: 100px;
+  padding: 0.1px;
+  border-radius: 5px;
+}
+
+
+
+@media (max-width: 600px) {
+  form {
+    padding: 20px;
+    display: flex;
+    width: 700px;
+    position: relative;
+    gap: 0.5px;
+  }
+  form input[type="email"] {
+    height: 40px;
+    width: 300px;
+    border-radius: 50px;
+    padding-left: 20px;
+    border: 2px solid hsl(223, 100%, 88%);
+    font-size: 1rem;
+    color: black;
+    outline: none;
+  }
+  form button[type="submit"] {
+    background-color: hsl(223, 87%, 63%);
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 300;
+    font-family: 'Libre Franklin', sans-serif;
+    letter-spacing: 1.1px;
+    box-shadow: 0px 0px 20px hsla(223, 87%, 63%, 0.32);
+    cursor: pointer;
+    outline: none;
+  }
+  form {
+    padding: 20px;
+    display: flex;
+    width: 400px;
+    position: relative;
+    gap: 50px;
+  }
+  .grid {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #fbfcff;
+    box-shadow: 0px 15px 12px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    height: 500px;
+  }
+  .topo {
+    display: flex;
+    margin: 0 auto;
+    height: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 2px 1px 12px rgba(0, 0, 0, 0.1);
+    background-color: #eaeaea;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  .coluna {
+    display: none;
+    align-items: center;
+    text-align: center;
+    gap: none;
+    width: none;
+    height: none;
+    background-color: none;
+    box-shadow: none;
+  }
+  .conteiner-sombra{
+    width: 600px;
+    height: 500px;
+    background-color:hsl(223, 100%, 99%);
+    border-radius: 15px;
+  }
+  .conteiner {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 600px;
+    height: 600px;
+  }
+  .cover {
+    margin: 0 auto;
+    margin-left: 160px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 250px;
+    margin-top: 30px;
+  }
+  .conteiner {
+    margin: 0 auto;
+    max-width: 600px;
+    height: 800px;
+  }
+ 
+}
+  
